@@ -1,6 +1,10 @@
-import React from 'react';
+// eslint-disable-next-line import/no-unresolved
+// @ts-ignore
+// eslint-disable-next-line import/no-unresolved
 import { SiderTheme } from 'antd/es/Layout/Sider';
+import React from 'react';
 
+// tslint:disable-next-line:interface-name
 export interface SettingModelState {
   navTheme: string | SiderTheme;
   primaryColor: string;
@@ -16,6 +20,7 @@ export interface SettingModelState {
   colorWeak: boolean;
 }
 
+// tslint:disable-next-line:interface-name
 export interface SettingDrawerProps {
   setting?: SettingModelState;
   dispatch?: (args: any) => void;

@@ -1,5 +1,6 @@
 import React from 'react';
 import { yuan } from '@/components/Charts';
+
 /**
  * 减少使用 dangerouslySetInnerHTML
  */

@@ -13,6 +13,7 @@ const updateTheme = primaryColor => {
     return;
   }
   const hideMessage = message.loading('正在编译主题！', 0);
+
   function buildIt() {
     if (!window.less) {
       return;
@@ -31,6 +32,7 @@ const updateTheme = primaryColor => {
         });
     }, 200);
   }
+
   if (!lessNodesAppended) {
     // insert less.js and color.less
     const lessStyleNode = document.createElement('link');
