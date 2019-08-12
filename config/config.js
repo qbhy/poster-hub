@@ -88,9 +88,9 @@ export default {
       authority: ['admin', 'user'],
       routes: [
         {
-          name: '首页',
-          path: '/dashboard/analysis',
-          component: './dashboard/analysis',
+          name: 'homepage',
+          path: '/',
+          component: './homepage/homepage',
         },
         {
           name: 'account',

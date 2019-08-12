@@ -42,9 +42,7 @@ const GlobalHeaderRight = props => {
         }}
       />
       <Tooltip
-        title={formatMessage({
-          id: 'component.globalHeader.help',
-        })}
+        title="github"
       >
         <a
           target="_blank"
@@ -52,7 +50,7 @@ const GlobalHeaderRight = props => {
           rel="noopener noreferrer"
           className={styles.action}
         >
-          <Icon type="question-circle-o" />
+          <Icon type="github" />
         </a>
       </Tooltip>
       <NoticeIconView />
